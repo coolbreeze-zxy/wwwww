@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# Not newsletter-related
+WeFlow-*.exe
+countdown-timer.html
+create_task.ps1
+extract_chat.py
+monitor_deepseek_key.py
+monitor_key.bat
+monitor_key.log
+monitor_key_state.json
+wxid_*/
+虞薇薇_chat.txt
