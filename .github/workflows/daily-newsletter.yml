@@ -2,8 +2,8 @@ name: Daily Newsletter
 
 on:
   schedule:
-    # 8:00 AM Beijing time (UTC+8) = 00:00 UTC
-    - cron: '0 0 * * *'
+    # 8:07 AM Beijing time (UTC+8) = 00:07 UTC (avoid :00 peak)
+    - cron: '7 0 * * *'
   workflow_dispatch:
 
 jobs:
