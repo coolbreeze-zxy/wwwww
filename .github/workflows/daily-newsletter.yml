@@ -2,8 +2,8 @@ name: Daily Newsletter
 
 on:
   schedule:
-    # 8:07 AM Beijing time (UTC+8) = 00:07 UTC (avoid :00 peak)
-    - cron: '7 0 * * *'
+    # ~6:17 AM Beijing = 22:17 UTC (buffer for GitHub scheduler delays)
+    - cron: '17 22 * * *'
   workflow_dispatch:
 
 jobs:
